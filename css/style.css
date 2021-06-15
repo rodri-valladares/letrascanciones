@@ -1,0 +1,28 @@
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #90b4f1 100%);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+}
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+.contenido {
+    background-color: white;
+    max-width: 1100px;
+    margin:  0 auto;
+    height: 100%;
+    padding: 20px;
+}
